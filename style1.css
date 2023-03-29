@@ -1,0 +1,20 @@
+body {
+    background-color: #e0e0e0;
+}
+#avatar {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 270px;
+    height: 270px;
+    margin-top: 60px;
+}
+#name {
+    text-align: center;
+    font-family: 'Cairo Play', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+#avatar-and-text {
+    display: block;
+    margin: 0 auto;
+}
