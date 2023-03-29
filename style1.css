@@ -8,6 +8,7 @@ body {
     width: 270px;
     height: 270px;
     margin-top: 60px;
+    padding-right: 10px;
 }
 #name {
     text-align: center;
