@@ -19,3 +19,11 @@ font-family: 'Ubuntu', sans-serif;
     display: block;
     margin: 0 auto;
 }
+#nav {
+    background-color: gray;
+    min-height: 100%;
+    width: 256px;
+    float: right;
+  position: absolute;
+  right: 0;
+}
