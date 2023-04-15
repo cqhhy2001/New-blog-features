@@ -21,10 +21,10 @@ body {
   height: 270px;
   margin-top: 60px;
   padding-right: 70px;
+  transition: all 250ms ease-in-out;
 }
 #avatar:hover {
-  scale: 1.3;
-  transition: all 250ms ease-in-out;
+  scale: 1.2;
 }
 #name {
   display: inline-block;
@@ -32,9 +32,6 @@ body {
   font-family: "Cairo Play", cursive;
   font-family: "Ubuntu", sans-serif;
   position: relative;
-}
-#name:hover {
-  scale: 1.3;
 }
 
 #nav {
@@ -124,21 +121,52 @@ body {
   top: 0;
   left: 40px;
 }
+
+/* Typewriter animation */
+
 .typewriter {
   overflow: hidden;
   white-space: nowrap;
+  margin: 0 auto;
   letter-spacing: 0.15em;
-  animation: typing 9s steps(80);
+}
+
+.typed-text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.cursor {
+  display: inline-block;
+  vertical-align: top;
+  width: 1px;
+  height: 1.1em;
+  margin-left: 2px;
+  border-right: 2px solid #000; /* Cursor style: border */
+  animation: blink-caret 0.5s step-end infinite;
+  opacity: 0;
 }
 
 @keyframes typing {
-  from {
-    width: 0;
+  0% {
+    opacity: 0;
   }
-  to {
-    width: 100%;
+  20% {
+    opacity: 1;
   }
 }
+
+@keyframes blink-caret {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Snowflake animation */
 
 .snowflake {
   color: #fff;
