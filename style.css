@@ -1,13 +1,16 @@
 body {
-  background-color: #9e9e9e;
+  background-color: #edf2fb;
   font-family: "Ubuntu", sans-serif;
+}
+
+.bg-navbar {
+  background-color: #abc4ff;
 }
 
 #avatar {
   display: block;
   margin: 0 auto;
   border-radius: 50%;
-  width: 270px;
   height: 270px;
   margin-top: 60px;
   padding-right: 70px;
